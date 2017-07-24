@@ -14,7 +14,12 @@
 	jQuery(document).ready(function(){
 		$.creaseFont({
 			//content:['.col2','.col3']
-			content:['body']
+			content:['body'],
+			unit:'px', // %, px, em
+			defaultSize:14,
+			maxSize:28,
+			minSize:8,
+			stepSize:2
 		});
 	});
 	</script>
